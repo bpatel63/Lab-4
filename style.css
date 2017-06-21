@@ -1,0 +1,83 @@
+/* Body styles */
+
+body {
+  background-image: url("galaxy.jpg");
+  background-size: cover;
+  font-size: 105%;
+  font-weight: bold;
+  width: 97%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Header Styles */
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 100px;
+  color: purple;
+  font-size: 1.7em;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 1px;
+}	
+
+
+/* Table Styles */
+
+ table.planets
+ {
+   table-layout: fixed;
+   border: 10px outset rgb(153, 0, 153);
+   border-collapse: collapse;
+   font-family: Arial, Helvatica, sans-serif;
+   font-size: 1em;
+   font-weight: normal;
+   line-height: 4em;
+   width: 102%;
+   overflow: hidden;
+   text-align: center;
+ }
+ 
+ 
+ /* Table Body Style */
+ 
+table.planets th, table.planets td
+{
+  padding: 1px;
+  border: 1px double purple;
+}
+
+tr:hover th
+{
+  background-color: #FFC0CB;
+  color: #800080;
+}
+
+tr:hover td
+{
+  background-color: #DDA0DD;
+  color: #800080;
+}
+
+
+/* Footer Styles */
+
+footer
+{
+  width: 102%;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0.9em;
+  font-size: 0.8em;
+  text-align: center;
+  font-variant: small-caps;
+  color: purple;
+  border-top: 1px solid purple;
+}
+
